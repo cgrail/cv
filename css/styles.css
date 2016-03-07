@@ -13,7 +13,7 @@ body {
 ul, li {
 	list-style: none;
 	margin: 0;
-	padding: 0; 
+	padding: 0;
 }
 .aside_el {
 	text-align: right;
@@ -54,7 +54,7 @@ ul, li {
 
 body {
 	background: #b9babe url("../img/body-bg.png") repeat;
-} 
+}
 .wrapper {
 	margin: 0; padding: 0;
 	width: 100%;
@@ -65,7 +65,7 @@ body {
 	max-width: 940px;
 	margin: 0 auto;
 	margin-top: 55px;
-	margin-bottom: 400px;
+	margin-bottom: 350px;
 	position: relative;
 	/* Color */
 	background: #fff url("../img/container-bg.png");
@@ -94,7 +94,7 @@ body {
 }
 .site_nav li {
 	/* Positioning & Display */
-	vertical-align: middle; 
+	vertical-align: middle;
 	margin: 0;
 	margin-left: -2px;
 	padding: 0 18px;
@@ -112,17 +112,17 @@ body {
 	position: relative;
 	margin: 0; padding: 0;
 	/* Animation */
-    -webkit-transition: 0.5s all ease;
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	transition: 0.5s all ease;
 }
 .site_nav a:hover {
 	text-decoration: none;
 	color: #747474;
 }
 .site_nav li.active {
-    border-top: 10px solid #0099e8;
+	border-top: 10px solid #0099e8;
 }
 .site_nav li.active a {
 	color: #747474;
@@ -159,6 +159,14 @@ body {
 	font-weight: normal;
 	color: #616161;
 	margin: -4px 0 25px 0;
+}
+.site_header h3 {
+	font: 2.5em 'Droid Sans', sans-serif; /* 25px/10 */
+	line-height: 1.2em; /* 30px/25px */
+	font-weight: 400;
+	color: #a4a5a6;
+	margin-right: 8%;
+	margin-left: 8%;
 }
 
 /*-----------------------------*\
@@ -211,14 +219,14 @@ body {
 	z-index: 10000;
 }
 .upbtn span {
-	color: white; 
-	line-height: 48px; 
-	text-align: center; 
+	color: white;
+	line-height: 48px;
+	text-align: center;
 	font-size: 35px; /* 30/14 */
 	position: relative;
 	bottom: 5px;
 	right: 18px;
-} 
+}
 
 /*-----------------------------*\
 	$EXPERIENCE
@@ -289,13 +297,19 @@ body {
 @media only screen and (max-width: 950px) {
 	.container {
 		margin-top: 20px;
-		margin-bottom: 350px;
+		margin-bottom: 400px;
 	}
 }
 @media only screen and (max-width: 870px) {
 	.site_header h1:before,
 	.site_header h1:after {
 		width: 28%;
+	}
+	.cont_info {
+		padding-left: 0px;
+	}
+	.site_header h3 {
+		font: 2em 'Droid Sans', sans-serif; /* 25px/10 */
 	}
 	.upbtnwrapp {
 		display: block;
@@ -324,6 +338,18 @@ body {
 	}
 	.site_header h2 {
 		font: 1.9em 'Arvo', serif;
+	}
+	.site_header h3 {
+		font: 1.7em 'Droid Sans', sans-serif;
+		line-height: 1.2em;
+	}
+	.aside_el {
+		text-align: center;
+		padding-right: 0px;
+		margin-bottom: 30px;
+	}
+	.aside_el h5 {
+		margin-top: 15px;
 	}
 	.par_el {
 		padding-left: 20px;
@@ -376,18 +402,36 @@ body {
 	}
 	.site_header h2 {
 		font: 1.7em 'Arvo', serif; /* 21px/10 */
-	}	
+	}
+	.site_header h3 {
+		font: 1.6em 'Droid Sans', sans-serif; /* 25px/10 */
+		line-height: 1.2em; /* 30px/25px */
+		margin-top: -15px;
+	}
+	.aside_el  h2 {
+		font: 2em 'Arvo', serif; /* 29px/10 */
+		line-height: 0.8em;
+		margin-bottom: -10px;
+	}
+	.aside_el  h5 {
+		font: 1.35em 'Droid Sans', sans-serif; /* 14px/10 */
+		line-height: 1.1em; /* 14px/14px */
+	}
+	.cont_info {
+		margin-top: 25px;
+	}
+
 	.about_me {
 		margin-top: 20px;
 	}
 	.experience, .education, .portfolio {
 		margin-top: 20px;
-	}	
+	}
 	.par_el header h2 {
 		font: 1.9em 'Arvo',serif;
 		margin-top: 3px;
 		padding-top: 2px;
-		
+
 	}
 	.par_el header h3 {
 		font: 1.4em/0.535714em 'Droid Sans',sans-serif;
@@ -414,6 +458,20 @@ body {
 	}
 	.site_header h2 {
 		font: 1.5em 'Arvo', serif;
+	}
+	.site_header h3 {
+		font: 1.3em 'Droid Sans', sans-serif;
+		line-height: 1.2em; /* 30px/25px */
+		margin-top: -15px;
+	}
+	.aside_el  h2 {
+		font: 1.8em 'Arvo', serif; /* 29px/10 */
+		line-height: 0.8em;
+		margin-bottom: -10px;
+	}
+	.aside_el  h5 {
+		font: 1.5em 'Droid Sans', sans-serif; /* 14px/10 */
+		line-height: 1.1em; /* 14px/14px */
 	}
 	.par_el p {
 		font: 1.3em 'Droid Sans', sans-serif; /* 14px/10 */
@@ -454,8 +512,18 @@ body {
 	.period { position: static; }
 }
 /* Retina screens patterns */
-@media (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi) { 
-    body {
+@media (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi) {
+	body {
 		background: #b9babe url("../img/body-bg@2x.png") repeat;
+	}
+	.container, .site_nav {
+		background: url("../img/container-bg@2x.png");
+	}
+	footer {
+		background: #f0f4f2 url("../img/contact-bg@2x.png") repeat;
+
+	}
+	.comment_form {
+		background: #dfdcdf url("../img/form-bg@2x.png") repeat;
 	}
 }
