@@ -64,8 +64,6 @@ body {
 	width: 100%;
 	max-width: 940px;
 	margin: 0 auto;
-	margin-top: 55px;
-	margin-bottom: 350px;
 	position: relative;
 	/* Color */
 	background: #fff url("../img/container-bg.png");
